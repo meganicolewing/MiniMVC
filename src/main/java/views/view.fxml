@@ -15,7 +15,7 @@
             <HBox prefHeight="100.0" prefWidth="200.0">
                <children>
                   <Label text="Number 1" />
-                  <TextField fx:id="num1" />
+                  <TextField id="num1Field" fx:id="num1" />
                </children>
                <VBox.margin>
                   <Insets top="10.0" />
@@ -24,10 +24,10 @@
             <HBox prefHeight="100.0" prefWidth="200.0">
                <children>
                   <Label text="Number 2" />
-                  <TextField fx:id="num2" />
+                  <TextField id="num2Field" fx:id="num2" />
                </children>
             </HBox>
-            <Button fx:id="addButton" mnemonicParsing="false" onAction="#onAddClick" text="Add" />
+            <Button id="addButton" fx:id="addButton" mnemonicParsing="false" onAction="#onAddClick" text="Add" />
          </children>
          <BorderPane.margin>
             <Insets left="10.0" />
@@ -38,7 +38,7 @@
       <HBox prefHeight="50.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
             <Label text="Sum: " />
-            <Label fx:id="sum" text="24" />
+            <Label id="sumLabel" fx:id="sum" text="24" />
          </children>
          <BorderPane.margin>
             <Insets left="10.0" top="20.0" />
